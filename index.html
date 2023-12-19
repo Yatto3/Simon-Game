@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="shortcut icon" href="./img/icons8-game-controller-24.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad&family=Hedvig+Letters+Sans&family=Noto+Sans:wght@100&family=Raleway:wght@100&family=Roboto+Mono:wght@100&family=Roboto+Slab:wght@200&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main-container">
+        <header>
+            <p>Click start to begin the game</p>
+            <div>
+                <p data-round>Round <span>1</span> / 10</p>
+            </div>
+        </header>
+        <div data-simon class="simon-game-container">
+            <div data-color="red" class="simon-tile-red"></div>
+            <div data-color="blue" class="simon-tile-blue"></div>
+            <div data-color="yellow" class="simon-tile-yellow"></div>
+            <div data-color="green" class="simon-tile-green"></div>
+        </div>
+        <div class="buttons">
+            <button data-start class="start-button">Start</button>
+        </div>
+    </div>
+    
+</body>
+</html>
